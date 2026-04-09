@@ -104,4 +104,8 @@ def test_ttest_p_value_always_between_0_and_1(a, b):
 def test_sample_size_always_positive(baseline, mde, std_dev):
     tester = StatisticalTests()
     result = tester.sample_size_calculator(baseline, mde, std_dev)
+<<<<<<< HEAD
     assert result["required_n_per_group"] > 0
+=======
+    assert result["required_n_per_group"] > 0
+>>>>>>> d97457968c3131a46966c05252068361d9400900

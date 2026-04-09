@@ -150,4 +150,8 @@ class DifferenceInDifferences:
             "ci_upper": conf[1].round(4),
         })
         table["significant"] = table["p_value"] < 0.05
+<<<<<<< HEAD
         return table
+=======
+        return table
+>>>>>>> d97457968c3131a46966c05252068361d9400900

@@ -15,4 +15,8 @@ if __name__ == "__main__":
     print(f"Sample dataset saved to {output_path}")
     print(df.head())
     print(f"\nShape: {df.shape}")
+<<<<<<< HEAD
     print(f"Treatment rate: {df['treatment'].mean():.2%}")
+=======
+    print(f"Treatment rate: {df['treatment'].mean():.2%}")
+>>>>>>> d97457968c3131a46966c05252068361d9400900

@@ -160,4 +160,8 @@ class CATEEstimator:
             "importance": self.mu_1.feature_importances_.round(4),
         }).sort_values("importance", ascending=False)
 
+<<<<<<< HEAD
         return importance_df
+=======
+        return importance_df
+>>>>>>> d97457968c3131a46966c05252068361d9400900

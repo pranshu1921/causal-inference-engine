@@ -64,4 +64,8 @@ def test_psm_raises_on_empty_group():
     })
     matcher = PropensityScoreMatcher()
     with pytest.raises(PSMError):
+<<<<<<< HEAD
         matcher.fit(df, "treatment", "outcome", ["age"])
+=======
+        matcher.fit(df, "treatment", "outcome", ["age"])
+>>>>>>> d97457968c3131a46966c05252068361d9400900

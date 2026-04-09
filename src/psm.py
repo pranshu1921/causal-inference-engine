@@ -175,4 +175,8 @@ class PropensityScoreMatcher:
             "ate_ci_upper": round(self.ate_ + 1.96 * self.ate_std_, 4),
             "matched_pairs": n_treated_original,
             "caliper_used": self.caliper,
+<<<<<<< HEAD
         }
+=======
+        }
+>>>>>>> d97457968c3131a46966c05252068361d9400900

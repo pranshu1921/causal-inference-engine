@@ -200,4 +200,8 @@ class StatisticalTests:
         return (
             f"No statistically significant {effect_label} detected "
             f"(p={p_value:.4f} >= {self.alpha})."
+<<<<<<< HEAD
         )
+=======
+        )
+>>>>>>> d97457968c3131a46966c05252068361d9400900

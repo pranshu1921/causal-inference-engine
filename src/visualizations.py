@@ -263,4 +263,8 @@ def plot_outcome_distributions(
         yaxis_title=outcome_col,
         height=370,
     )
+<<<<<<< HEAD
     return fig
+=======
+    return fig
+>>>>>>> d97457968c3131a46966c05252068361d9400900

@@ -352,4 +352,8 @@ with tab_stats:
     s1, s2, s3 = st.columns(3)
     s1.metric("Required per group", ss_result["required_n_per_group"])
     s2.metric("Total required", ss_result["total_required_n"])
+<<<<<<< HEAD
     s3.metric("Cohen's d", ss_result["effect_size_cohens_d"])
+=======
+    s3.metric("Cohen's d", ss_result["effect_size_cohens_d"])
+>>>>>>> d97457968c3131a46966c05252068361d9400900
